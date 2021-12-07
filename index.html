@@ -1,9 +1,3 @@
-<!-- Siteyi açtığımızda adınız ve soyadınızı başlık şeklinde göstermeniz gerekiyor.
-Ad-Soyadın altında alt başlık olarak Hakkımda yazmalıdır.
-Altına paragraf içerisinde neler yaptığınızı ve nelerden hoşlandığınızı yazabilirsiniz.
-Web sitenizi kaydederken dosya adı olarak 'index.html' seçmeniz gerekmektedir.
-Yazdığınız kodları açıklayan yorum satırları eklemeyi unutmayın. -->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,46 +5,72 @@ Yazdığınız kodları açıklayan yorum satırları eklemeyi unutmayın. -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        body {
+            background-color: azure
+        }
+
+        nav {
+            text-align: end;
+            font-size: 20px;
+            font-family: Helvetica;
+        }
+
+        section {
+            margin-top: 50px;
+            margin-left: 5px;
+            font-size: 20px
+        }
+
+        #lorem {
+            display: inline-block;
+            width: 400px;
+            height: 300px;
+            border-radius: 20px;
+            
+        }
+
+        #we {
+            width: 750px;
+            height: 650px;
+            margin-top: 25px;
+            margin-left: 700px;
+            margin-bottom: 3px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 20px;
+            font-family: Helvetica;
+        }
+    </style>
 </head>
+
 <body>
-    <!-- Hakkımda Satırı -->
-    <h1 style background-color="red">Yafeshan Ünal</h1>
-    <h2>About me</h2>
-    <p> My name is Yafeshan I am a Cyber Security Researcher</p>
-    <h3>Personal Properties</h3>
-    <p>Punctual Dicipline and restpectful</p>
-    <img src="https://picsum.photos/200"></img>
+    <header>
+        <nav>
+            <a href="index.html">Homepage</a> <a href="about.html">Hakkımızda</a> <a href="connection.html">İletişim</a>
+            <!-- <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="about.html">Hakkımızda</a></li>
+            <li><a href="connection.html">İletişim</a></li> -->
+        </nav>
+    </header>
+    <section>
+        <p>Hi Welcome to My Website</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, nam!</p>
+        <p>Esse voluptatibus quibusdam et voluptate, repellendus molestiae optio consectetur magni!</p>
+        <p>Sed voluptatibus necessitatibus dicta deleniti ab impedit eos unde quia.</p>
+        <p>Aperiam voluptates illo a corporis mollitia, repellendus culpa? Libero, dignissimos.</p>
+        <p>Molestias beatae natus harum libero. Similique officia earum pariatur quod?</p>
+        <img id="lorem" src="https://picsum.photos/200">
+    </section>
+    <img id="we" src="0a549ee8-b7b4-4223-974a-fe21c00e0b85.jfif">
 
-    <ol style type="">
-        <h3>My Favourite Films</h3>
-        <ul>
-            <li><a href="https://www.imdb.com/title/tt0112573/" target="_blank">Brave Heart</a></li> 
-            <li>Last Samurai</li>
-            <li>Nefes</li>
-        </ul>
-        <h3>My Favourite Movie</h3>
-        <ul>
-            <li><a href="https://www.imdb.com/title/tt1119644/?ref_=fn_al_tt_1" target="_blank">Fringe</a></li>
-            <li>Shadow of Bone</li>
-            <li>See</li>
-        </ul>
-        <h3>My Favourite Book</h3>
-        <ul>
-            <li><a href="https://www.goodreads.com/book/show/6772939-semerkant?from_search=true&from_srp=true&qid=3qDsD9Z15H&rank=1" target="_blank">Semerkant</a></li>
-            <li>Güvercin Kanat</li>
-            <li>Uçurtma Avcısı</li>
-        </ul>
-
-
-
-    </ol>
-
+    <footer>
+        Made by Yafeshan Ünal and Dağ Ayısı
+    </footer>
 </body>
 
 </html>
-
-<!-- Sayfanıza bir adet resim ekleyin ve bu resime bir açıklama yazın.
-Sevdiğiniz film, dizi ve kitapları bunlar başlıklar olacak şekilde sıralayınız.
- (Film, dizi, kitap sıralı liste, içerikleri bullet liste olacak şekilde)
-Bunları sıralarken film ve dizilerin en az bir tanesine IMDb linki, kitapların bir tanesine de** Goodreads linkini** yazınız.
-Kurduğunuz yapılarda block, inline gibi elementler kullanmaya çalışın. -->

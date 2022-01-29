@@ -1,0 +1,31 @@
+body{
+    background-color: white;
+}
+.header{
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: orange;
+    text-align: center;
+
+    .input{
+        width: 500px;
+        margin-bottom: 35px;
+    }
+    .button{
+        width: 150px;
+        
+    }
+}
+#tablo{
+    margin-left: 262px;
+    width: 1012px;    
+}
+
+#list{
+    background-color: rgb(185, 183, 183);
+    margin: 0px 250px;
+    padding: 10px 5px 5px 190px;
+    list-style: none;
+    cursor: pointer;
+}
+
